@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      var objetos = Array("Cadeira", "Impressora", "Garfo");
+
+      function acao() {
+        var entrada = document.getElementById("inserir").value;
+
+        if (entrada != "") {
+          if (objetos.indexOf(entrada) !== -1) {
+            alert("objeto já foi adicionado");
+          } else {
+            objetos.push(entrada);
+            console.log(objetos.toUpperCase());
+
+            document.getElementById("entrada").value = "";
+          }
+        } else {
+          alert("Informe um elemento válido");
+        }
+      }
+      function ordenar() {
+        objetos.sort();
+        console.log(objetos.toUpperCase());
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="inserir" />
+
+      <button onclick="acao()">Adicionar</button>
+
+      <button onclick="ordenar()">Ordernar</button>
+    </div>
+  </body>
+</html>

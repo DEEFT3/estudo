@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      /*
+      Ao executar o script a aplicação deve solicitar a entrada de um número, seguido de
+      uma operação de soma ou subtração e posteriormente seguido de um segundo
+      número.
+       */
+
+      var num1 = prompt("Qual número deseja operar?");
+
+      var num2 = prompt("Qual outro número deseja operar?");
+
+      var operacao = prompt("Entre soma e subtração qual deseja?");
+
+
+      function calculo(num1, num2, operacao) {
+        num1 = parseFloat(num1)
+        num2 = parseFloat(num2)
+
+        resultado = 0
+
+        if(operacao == 'soma'){
+            resultado = num1 + num2;
+        }
+
+        if(operacao == 'subtracao'){
+            resultado = num1 - num2;
+        }
+
+        return resultado;
+    }
+
+      document.write('O resultado é: ' + calculo(num1, num2, operacao)); 
+
+    </script>
+  </head>
+  <body></body>
+</html>

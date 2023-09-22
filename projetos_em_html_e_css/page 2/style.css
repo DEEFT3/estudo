@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+
+}
+
+#container{
+    
+    width: 750px;
+    margin: 0 auto;
+    
+}
+
+#topo{
+    height: 50%;
+    padding-bottom: 10%;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 3%;
+}
+
+
+.logo{
+    width: 20%;
+    height: 8%;
+    line-height: 250%;
+    background: url(imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    background: #b10333;
+    margin-top: 4%;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color:white;
+    background: url(imagens/divisor.png) repeat-y left center;
+}
+
+#topo ul .primeiro a{
+   background: none; 
+}
+
+#topo ul a:hover{
+    color:#69001d;
+}
+
+body.home #navegacao a#home,
+body.Brasil #navegacao a#Brasil,
+body.Internacional #navegacao a#Internacional,
+body.Economia #navegacao a#Economia,
+body.Saúde #navegacao a#Saúde,
+body.Ciência #navegacao a#Ciência,
+body.Fotos #navegacao a#Fotos{
+    color: #fff;
+    background: #de033e;
+    cursor: text;
+}
+
+
+#conteudo{
+    
+    background: #f5f5f5;
+    margin-top: 8%;
+}
+/* inicio area de colunas*/
+#tres-colunas #primario{
+   
+    width: 37%;
+    float: left;
+    margin: 0 0 2% 25.4%;
+}
+
+#tres-colunas #secundario{
+    
+    width: 37%;
+    margin: 0 0 2% 0;
+    float: left;
+}
+
+#tres-colunas #lateral{
+    
+    width: 25%;
+    float: left;
+    margin: 0 0 2% -100%;
+}
+
+#duas-colunas #primario{
+   
+    width: 75%;
+    float: left;
+    margin: 0 0 2% 25%;
+}
+#duas-colunas #lateral{
+    
+    width: 25%;
+    float: left;
+    margin: 0 0 2% -100.3%;
+}
+
+#uma-colunas #primario{
+   
+    width: 100%;
+    float: left;
+    margin: 0 0 2% 0;
+}
+/* fim area de colunas*/
+
+/* inicio conteudo das colunas*/
+.caixa{
+    margin: 2% 2% 0;
+    padding: 2%;
+    background: #f3f3f3 url(imagens/fundo-caixa.png);
+
+}
+
+.caixa-conteudo{
+    background: #fff;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.caixa-conteudo ul{
+    list-style: none;
+}
+.caixa-conteudo ul a{
+    font-size: 0.9em;
+    padding: 1.5%;
+    display: block;
+    line-height: 80%;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+    text-decoration: none;
+    
+}
+
+.caixa-conteudo #list-entrevista a:hover{
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+    padding-left: 15%;
+    color: #a1a1a1;
+}
+
+.caixa-conteudo ul li{
+    padding: 5%;
+}
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 2%;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    padding: 2%;
+    width: 90%;
+    background-color: white;
+}
+
+input.submit{
+    width: 45%;
+    color: #fff;
+    background-color: #b10333;
+    border: 2% solid #870529;
+    
+}
+
+img{
+    border: 2% solid #dfdfdf;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 1%;
+}
+
+.destaque h3{
+    background-color: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background-color: #b10333;
+    color: #000;
+}
+/* fim conteudo das colunas*/
+
+/* inicio formatando lista de noticias */
+
+.lista-noticia{
+    padding: 1%;
+    border-bottom: 1% solid #ccc;
+    height: 80%;
+}
+
+.lista-noticia li a img{
+    float: left;
+    margin: 1%;
+    
+}
+
+.lista-noticia li a{
+    text-decoration: none;
+    
+}
+
+.lista-noticia li a h3{
+    font-size: 0.75em;
+    padding: 0;
+    color: blue;   
+}
+
+.lista-noticia li a p{
+    font-size: 0.8em;
+    padding: 3%;
+}
+
+.lista-noticia li:hover{
+    background: #eee;
+    cursor: pointer;
+    
+}
+
+/* fim formatando lista de noticias */
+
+#container-rodape{
+    clear: both;
+    background: #294c71;
+    padding: 2%;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+
+}
+

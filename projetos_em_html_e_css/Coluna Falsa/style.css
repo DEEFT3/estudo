@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 820px;
+    max-width: 1280px;
+    background: url(imagens/coluna.png) repeat-y left top;
+}
+
+#cabecalho{
+    background: #225992 url(imagens/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+}
+
+#barraesq{
+    background: rgb(218, 216, 216);
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#barradir{
+    background: rgb(218, 216, 216);
+    width: 34%;
+    float: right;
+
+}
+
+#conteudo{
+    background: white;
+    width: 75%;
+    float: right;
+    
+}
+
+#conteudoprin{
+    width: 63%;
+    float: left;
+}
+
+img.img-noticia{
+    width: 90%;
+    padding: 2%;
+    max-width: 600px;
+}
+
+
+#rodape{
+    clear: both;
+    background: gray;
+    width: 100%;
+}
+
+#barraesq ul{
+    padding: 20px 40px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+
+}
+
+#barradir h2,#barradir p{
+    padding:20px;
+}
+
+#conteudoprin h2,#conteudoprin p{
+    padding: 10px;
+    
+}
+

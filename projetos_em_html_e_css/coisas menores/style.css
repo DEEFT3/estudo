@@ -1,0 +1,130 @@
+#caixa{
+    background: #dcdcdc;
+    height: 400px;
+    display:flex;
+}
+
+
+   /* flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}*/
+
+.item{
+    
+    height: 100px;
+    background: white;
+    border:1px solid gray;
+    margin: 10px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+.item1{
+    flex-shrink: 1;
+}
+.item2{
+    flex-grow: 2;
+}
+.item3{
+    flex-shrink: 10;
+}
+/*.ordem1{
+    order: 1;
+}
+
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+.ordem4{
+    order: 4;
+}
+*/
+
+
+
+
+
+
+
+
+
+/*#caixa{
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #009670;
+    box-shadow: 20px 20px 20px 20px black;
+    box-decoration-break:;
+    
+}
+
+#caixa h1{
+    color: white;
+    text-shadow: 6px 0 6px rgba(0,0,0,0.6);
+    
+}
+
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: url(imagens/satoru.jpg);
+}
+
+#caixa h1{
+    background: rgba(255, 255, 255,0.6);
+    background: linear-gradient(170deg,white,purple);
+    background:radial-gradient(red, yellow, orange);
+
+}
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#caixa2{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    text-align: center;
+}
+
+/*
+.redondo{
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    border-radius: 200px 200px 200px 200px;
+}
+*/
