@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      //&& - verdadeiro se tudo for true
+      /*if (2 == 2 || 3 >= 1 || "a" == "b") {
+        document.write("Verdadeiro");
+      } else {
+        document.write("false");
+      }
+      
+       //|| - se o numero de true for maior ele retornará veradeiro se o maior numero for false retornará false
+      if (2 == 2 || 3 >= 1 || "a" == "b") {
+        document.write("Verdadeiro");
+      } else {
+        document.write("false");
+      }*/
+
+      
+      var nota = prompt("Digite a nota do aluno:");
+      var faltas = prompt("Digite a quantidade de faltas:");
+      var media = 7;
+      var faltas_maximas = 15;
+
+      /*if (nota >= media && faltas <= faltas_maximas) {
+        document.write("Aprovado");
+        //logica
+      } else {
+        document.write("Reprovado");
+        //logica
+      }
+      */
+      var resultado =
+        nota >= media && faltas <= faltas_maximas ? "Aprovado" : "reprovado";
+        document.write(resultado)
+    </script>
+  </head>
+  <body>
+    <h1>Java dos scripto</h1>
+  </body>
+</html>

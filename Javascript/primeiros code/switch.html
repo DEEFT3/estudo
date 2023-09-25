@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      var janela = void
+      function abrirPopUp(){
+       janela = window.open('https://www.youtube.com','nova_janela','width=200px, height=800px')
+      }
+      function fecharPopUp(){
+        window.close()
+      }
+      
+    </script>
+  </head>
+  <body>
+    <butto onclick="abrirPopUp()">Abrir Janela</butto>
+    <button onclick="fecharPopUp()">fechar Janela</button>
+
+  </body>
+</html>

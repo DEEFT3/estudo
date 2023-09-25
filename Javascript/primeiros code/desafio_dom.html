@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .estilo0 {
+        background-color: white;
+      }
+      .estilo1 {
+        background-color: green;
+      }
+      .estilo2 {
+        background-color: red;
+      }
+      .estilo3 {
+        background-color: yellow;
+      }
+    </style>
+
+    <script>
+      function verificando() {
+        document.getElementById("input_de").className = "estilo3";
+      }
+      function validacao() {
+        var valorCampo = document.getElementById("input_de").value;
+        if (valorCampo.length < 3) {
+          document.getElementById("input_de").className = "estilo2";
+        } else {
+          document.getElementById("input_de").className = "estilo1";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input
+      type="text"
+      class="estilo0"
+      onfocus="verificando()"
+      onblur="validacao()"
+      id="input_de"
+    />
+  </body>
+</html>

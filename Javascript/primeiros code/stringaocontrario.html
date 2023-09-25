@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      var picture = Array()
+      picture[0] = 'abc' 
+      picture[1] = 'ded'
+      function solution(picture) {
+        even = 0;
+
+        for (i = 0; i < picture.length; i++) {
+          even = picture[i].split("").unshift("*").push("*").join("");
+
+          console.log(even);
+        }
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
